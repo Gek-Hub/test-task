@@ -1,0 +1,54 @@
+.top-form {
+    box-sizing: border-box;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    height: 12vh;
+    max-height: calc(670px*0.12);
+    width: 100%;
+    border: 1px solid gray;
+  border-bottom: none;
+    color: gray;
+
+}
+.select {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0px auto;
+    border: 0;
+    width: 8%;
+    height: 80%;
+    appearance: none;
+    background: url(../media/choosePage.png);
+    background-size: cover;
+    opacity: 0.3;
+}
+.input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+    font-weight: 300;
+    color: gray;
+  
+}
+input:focus{
+    outline: none;
+}
+
+.input::placeholder {
+    
+    color: #ddd;
+}
+.set-task-button {
+    position: relative;
+    height: 100%;
+    width:max-content;
+    display: none;
+}
+.on {
+    display: flexbox;
+}
